@@ -5,7 +5,7 @@ from shop.product import Product
 def test_product_is_created_with_name_and_price():
     product = Product("Keyboard", 1000)
     assert product.name == "Keyboard"
-    assert product.price == 9999
+    assert product.price == 1000
 
 
 def test_product_created_with_category():
